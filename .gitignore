@@ -1,0 +1,60 @@
+# Virtual environments
+.venv/
+.venv_deepmd22/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary model and checkpoint files
+*.ckpt*
+*.pt
+*.pth
+*.pb
+model_*.pt
+graph_*.pth
+graph_*.pb
+
+# Test and demo output files
+tmp_*/
+test_output/
+log.lammps
+*.lammpstrj
+lcurve*.out
+
+# Data files
+*.npz
+*.npy
+dataset_demo.npz
+raw/
+checkpoint/
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.o
+*.a
+
+# Demo/probe files
+in.*.probe
+in.*_smoke
+input*.json
+mock_system/
+qe_epw_demo_system/
+third_party/
+
+# Other temporary
+out.json
+input_tmp.in
+.DS_Store
+*.log
+
+# Keep compiled plugins for reference (optional - adjust as needed)
+# ttm_hydro_3d_plugin.so
